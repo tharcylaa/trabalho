@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <img src="ifpabelem.png" alt="logo ifpa belem">
+    <h1>TADS - TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 💻</h1>
+    <h2>✏️ Cadastro do Aluno:</h2>
+    <label for="nome">Nome: *</label>
+    <br>
+    <input type="text" id="nome" name="campo" required>
+    <br>
+    <label for="email">Email: *</label> 
+    <br>
+    <input type="email" id="email" name="campo" required>
+    <br>
+    <small>exemplo@exemplo.com</small>
+    <br><br>
+    <label for="telefone">Telefone:</label>
+    <br>
+    <input type="text" maxlength="2" size="2" id="ddd" placeholder="DDD">            
+    <input type="text" maxlength="9" size="10" id="tefelone" placeholder="Número">
+    <br><br>
+    <label for="select">Disciplina a cursar:</label>
+    <br>
+    <select name="materias" id="select">
+        <option value="" disabled selected hidden></option>
+        <option value="Programação WEB">Programação WEB</option>
+        <option value="Estrutura de Dados">Estrutura de Dados</option>
+        <option value="Sistemas Operacionais">Sistemas Operacionais</option>
+        <option value="Matemática">Matemática</option>
+        <option value="Contabilidade">Contabilidade</option>
+    </select>
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+    <br>
+    <div  style="font-size: 18.px;">
+        <a href="index.html">Retornar à homepage</a>
+        </div>
+</body>
+</html>
